@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: lightblue;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: lightcyan;
+            padding: 3px;
+            box-shadow: 4px 4px 10px 1px rgba(0, 0, 0, 0.39); 
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 5px 4px 9px 0px rgba(0, 0, 0, 0.39);
+        }
+
+        article {
+            background-color: lightblue;
+        }
+
+        article > aside {
+            background-color: aliceblue;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Canada</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum culpa tempora, dolore optio nulla tempore voluptatem iure atque necessitatibus ex laudantium laboriosam quia sint totam ducimus fugit doloribus nisi labore.</p>
+                <aside>
+                    <p>Artig    o escrito por Guilherme</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo Guilherme Lima</p>
+    </footer>
+
+</body>
+</html>

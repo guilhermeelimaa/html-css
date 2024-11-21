@@ -1,0 +1,42 @@
+/* Estilo geral para o corpo da página */
+body {
+    background: rgb(235, 196, 151); /* Cor de fundo azul */
+    font: normal 12pt Arial;  /* Alterando a fonte*/
+    color: rgb(0, 0, 0) /* Muda a cor da fonte */
+}
+
+/* Estilo para o cabeçalho */
+header {
+    color: rgb(255, 255, 255); /* Cor do texto do cabeçalho */
+    text-align: center; /* Alinha o texto do cabeçalho ao centro */
+}
+
+/* Estilo para a seção principal */
+section {
+    background: rgb(248, 248, 248); /* Cor de fundo branca para a seção */
+    border-radius: 10px; /* Bordas arredondadas com raio de 10 pixels */
+    padding: 15px; /* Espaçamento interno de 15 pixels */
+    width: 500px; /* Largura fixa de 500 pixels */
+    margin: auto; /* Centraliza a seção horizontalmente */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363); /* Sombra ao redor da seção */
+}
+
+/* Estilo para a imagem com ID 'foto' */
+#foto { 
+    width: 150px; /* Largura da imagem */
+    height: 150px; /* Altura da imagem */
+    border-radius: 50%; /* Torna a imagem circular */
+}
+
+/* Estilo para os elementos 'div' */
+div {
+    text-align: center; /* Alinha o texto dentro da div ao centro */
+    padding: 8px; /* Espaçamento interno de 8 pixels */
+}
+
+/* Estilo para o rodapé */
+footer {
+    color: rgb(255, 255, 255); /* Cor do texto do rodapé */
+    text-align: center; /* Alinha o texto do rodapé ao centro */
+    font-style: italic; /* Torna o texto do rodapé em itálico */
+}
